@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CI Automation Agent</title>
+</head>
+<body>
+    <h1>CI Automation Agent (Groq Powered)</h1>
+    <button onclick="runFlow()">Run CI Automation</button>
+    <script>
+        function runFlow() {
+            fetch('/run')
+            .then(response => response.json())
+            .then(data => alert(data.status));
+        }
+    </script>
+</body>
+</html>
