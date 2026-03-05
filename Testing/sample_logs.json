@@ -1,0 +1,6 @@
+{
+  "101": {
+    "logs": "pytest failure: AssertionError in test_auth.py",
+    "severity_hint": "authentication module failure"
+  }
+}
